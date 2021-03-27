@@ -1,0 +1,23 @@
+algoritmo exercicio3;
+// Síntese
+//  Objetivo: calcular a média aritmética de 3 números quaisquer fornecidos pelo usuário.
+//  Entrada : 3 números.
+//  Saída   : média aritmética.
+
+
+principal
+	// Declarações
+	real numeroa, numerob, numeroc, mediad;
+
+	// Instruções
+	escreva ("Informe o 1º número para o cálculo da média aritmética: ");
+	leia (numeroa);
+	escreva ("Informe o 2º número para o cálculo da média aritmética: ");
+	leia (numerob);
+	escreva ("Informe o 3º número para o cálculo da média aritmética: ");
+	leia (numeroc);
+
+	mediad = (numeroa + numerob + numeroc) / 3;
+	escreva ("A média aritmética dos 3 números é: " + mediad);
+
+fimPrincipal

@@ -1,0 +1,31 @@
+algoritmo exercicio6;
+// Síntese
+//  Objetivo: ler 2 valores A e B, que correspondem a 2 notas de um aluno e em seguida calcular a média.
+//  Entrada : notas A e B.
+//  Saída   : média das notas do aluno.
+
+
+principal
+	// Declarações
+	real notaa, notab, mediac;
+
+	// Instruções
+	escreva ("Informe a 1º nota: ");
+	leia (notaa);
+
+	se (notaa > 10) entao
+	escreva ("Nulo");
+	senao
+	escreva ("Informe a 2º nota: ");
+	leia (notab);
+	se (notab > 10) entao
+	escreva ("Nulo");
+	senao
+	notaa = (notaa) * 3.5;
+	notab = (notab) * 7.5;
+	mediac = (notaa + notab) / 11;
+
+	escreva ("A média do aluno é " + mediac);
+	fimSe
+	fimSe
+	fimPrincipal

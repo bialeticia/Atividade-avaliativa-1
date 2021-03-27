@@ -1,0 +1,18 @@
+algoritmo exercicio2;
+// Síntese
+//  Objetivo: calcular a área de um círculo cujo raio é fornecido pelo usuário.
+//  Entrada : raio.
+//  Saída   : area.
+
+
+principal
+	// Declarações
+	inteiro raio, area;
+
+	// Instruções
+	escreva ("Informe o raio do círculo: ");
+	leia (raio);
+
+	area = 3.14 * (raio * raio);
+	escreva ("A área do círculo é: " + area);
+fimPrincipal

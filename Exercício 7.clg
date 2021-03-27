@@ -1,0 +1,37 @@
+algoritmo exercicio7;
+// Síntese
+//  Objetivo: ler o nome do funcionário, o sexo (F ou M), o número de matrícula do funcionário, o número de horas trabalhadas, o valor que recebe por hora e calcular o salário desse funcionário. 
+//  Entrada: nome do funcionário, o sexo (F ou M), o número de matrícula do funcionário, o número de horas trabalhadas e o valor que recebe por hora.
+//  Saída: nome do funcionário, o sexo (F ou M), o número de matrícula do funcionário, o número de horas trabalhadas, o valor que recebe por hora e o salário do funcionário.
+
+
+principal
+	// Declarações
+	inteiro matricula, horas;
+	real recebe, salario, valorh;
+	caracter sexo;
+	texto nomeFunc;
+
+	// Instruções
+	escreva ("Funcionário, informe o nome: ");
+	leia (nomeFunc);
+	escreva ("Funcionário, informe o sexo, M para masculino e F para feminino: ");
+	leiaCaracter (sexo);
+	escreva ("Funcionário, informe a matrícula: ");
+	leia (matricula);
+	escreva ("Funcionário, informe o número de horas trabalhadas: ");
+	leia (horas);
+	escreva ("Funcionário, informe o valor que recebe por hora: ");
+	leia (valorh);
+
+	salario = (horas * valorh);
+
+	escreva ("Nome: " + nomeFunc);
+	escreva (" / Sexo: " + sexo);
+	escreva (" / Matrícula: " + matricula);
+	escreva (" / Número de horas trabalhadas: " + horas);
+	escreva (" / O valor que recebe por hora: R$" + valorh);
+	escreva (" / Salário: R$" + salario);
+	
+
+fimPrincipal

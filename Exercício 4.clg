@@ -1,0 +1,24 @@
+algoritmo exercicio4;
+// Síntese
+//  Objetivo: a partir da leitura de dois números fornecer o resto e o quociente da divisão do primeiro pelo segundo número.
+//  Entrada : dois números.
+//  Saída   : resto e quociente da divisão.
+
+
+principal
+	// Declarações
+	inteiro dividendo, divisor, quociente, resto;
+
+	// Instruções
+	escreva ("Informe o dividendo: ");
+	leia (dividendo);
+	escreva ("Informe o divisor: ");
+	leia (divisor);
+
+	resto = dividendo mod divisor;
+	quociente = dividendo\divisor;
+
+	escreva ("O valor do quociente é " + quociente);
+	escreva (" e o valor do resto é " + resto);
+
+fimPrincipal

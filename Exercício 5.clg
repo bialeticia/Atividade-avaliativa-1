@@ -1,0 +1,23 @@
+algoritmo exercicio5;
+// Síntese
+//  Objetivo: auxiliar um construtor a descobrir a quantidade de rolos e a quantidade de metros avulsos de fios que ele precisa adquirir.
+//  Entrada : quantidade total de fios em metros.
+//  Saída   :  quantidade de rolos de 50 metros e a quantidade de metros avulsos de fios.
+
+
+principal
+	// Declarações
+	inteiro rolos, fios;
+	real metrosAvulsos;
+
+	// Instruções
+	escreva ("Qual é a quantidade total de fios em metros? ");
+	leia (fios);
+
+	rolos = (fios / 50) + 1;
+	metrosAvulsos = 50 - (fios % 50);
+
+	escreva ("Você deverá adquirir " + rolos + " rolo(s) de 50 metros");
+	escreva (" e " + metrosAvulsos + " metro(s) avulsos de fios." );
+
+fimPrincipal
